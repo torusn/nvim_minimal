@@ -65,4 +65,5 @@ require("lazy").setup({
   {'ray-x/go.nvim'},
   {'ray-x/guihua.lua'},
   {'echasnovski/mini.comment', version = '*' },
+  {'echasnovski/mini.surround', version = '*' },
 })
