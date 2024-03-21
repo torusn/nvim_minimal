@@ -16,7 +16,7 @@ require("lazy").setup({
   {'williamboman/mason.nvim'},
   {'williamboman/mason-lspconfig.nvim'},
   -- Autocompletion
-  {'hrsh7th/nvim-cmp'},
+  {'hrsh7th/nvim-cmp', event = { "InsertEnter", "CmdlineEnter" }},
   {'hrsh7th/cmp-buffer'},
   {'hrsh7th/cmp-path'},
   {'saadparwaiz1/cmp_luasnip'},
