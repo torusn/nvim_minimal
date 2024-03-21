@@ -64,4 +64,5 @@ require("lazy").setup({
   {'tpope/vim-fugitive'},
   {'ray-x/go.nvim'},
   {'ray-x/guihua.lua'},
+  {'echasnovski/mini.comment', version = '*' },
 })
