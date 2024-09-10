@@ -24,6 +24,9 @@ require('mason-lspconfig').setup({
       local lua_opts = lsp_zero.nvim_lua_ls()
       require('lspconfig').lua_ls.setup(lua_opts)
     end,
+    gopls = function()
+      require('lspconfig').gopls.setup{}
+    end,
   }
 })
 
