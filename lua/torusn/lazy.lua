@@ -59,7 +59,14 @@ require("lazy").setup({
     }
   },
   {'nvim-treesitter/nvim-treesitter'},
-  {'theprimeagen/harpoon'},
+  {
+      "ThePrimeagen/harpoon",
+      branch = "harpoon2",
+      dependencies = {
+          "nvim-lua/plenary.nvim",
+          "nvim-telescope/telescope.nvim"
+      }
+  },
   {'mbbill/undotree'},
   {'tpope/vim-fugitive'},
   {'ray-x/go.nvim'},
