@@ -14,9 +14,9 @@ harpoon:setup({})
 -- basic keymaps
 vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end)
 vim.keymap.set("n", "<S-h>", function() harpoon:list():select(1) end)
-vim.keymap.set("n", "<S-t>", function() harpoon:list():select(2) end)
-vim.keymap.set("n", "<S-n>", function() harpoon:list():select(3) end)
-vim.keymap.set("n", "<S-s>", function() harpoon:list():select(4) end)
+vim.keymap.set("n", "<S-j>", function() harpoon:list():select(2) end)
+vim.keymap.set("n", "<S-k>", function() harpoon:list():select(3) end)
+vim.keymap.set("n", "<S-l>", function() harpoon:list():select(4) end)
 
 -- disable if using telescope
 vim.keymap.set("n", "<S-e>", function () harpoon.ui:toggle_quick_menu(harpoon:list()) end)
