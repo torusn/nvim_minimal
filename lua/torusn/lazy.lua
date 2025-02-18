@@ -5,10 +5,10 @@ require("lazy").setup({
       dependencies = { 'nvim-lua/plenary.nvim' }
   },
   {
-    'kvrohit/mellow.nvim',
-    as = 'mellow',
+    'rebelot/kanagawa.nvim',
+    as = 'kanagawa',
     config = function()
-      vim.cmd('colorscheme mellow')
+      vim.cmd('colorscheme kanagawa-wave')
     end
   },
   {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
