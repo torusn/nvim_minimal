@@ -1,5 +1,4 @@
 require("go").setup({
-    max_line_len = 110,
     test_runner = "go",
     build_tags = "testing",
     run_in_floaterm = false,
